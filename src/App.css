@@ -1,0 +1,424 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #472b25;
+  color: #FFF8E1;
+}
+
+.logo{
+  width:90px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+/* Container for Login, Register, and Home */
+.container {
+  background-color: #6a463e;
+  padding: 20px;
+  width: 320px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 120px;
+ text-decoration: none;
+}
+
+/* Input Fields */
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #9b503f;
+  color:#FFF8E1;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5b403a;
+}
+
+.navbar-nav{
+  list-style-type: none;
+  float: right;
+}
+
+.navbar-nav li {
+  display: inline;
+  margin: 5px;
+}
+
+.navbar-nav a{
+  text-decoration: none;
+  color: #FFF8E1;
+  font-size: 20px;
+}
+
+.logreg{
+  float: right;
+  
+}
+
+.logreg a{
+  color: #FFF8E1;
+  text-decoration: none;
+}
+
+.navbar-brand{
+  color: #FFF8E1;
+  text-decoration: none;
+  margin: 50px;
+  font-size: 50px;
+}
+
+.lastnav{
+  margin-right:30px;
+}
+
+.outbutt{
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.73);
+  margin-left: 5px;
+  margin-top: 0;
+  color: #FFF8E1;
+  font-size: 20px;
+}
+
+#logbut{
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.73);
+  border-radius: 100px;
+  /* margin: 10px; */
+  background-color: #9b503f;
+  color: #FFF8E1;
+  padding: 10px;
+  font-size: 20px;
+  margin-right: 5px;
+  text-decoration: none;
+}
+#regbut{
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.73);
+  border-radius: 100px;
+  /* margin: 10px; */
+  background-color: #9b503f;
+  color: #FFF8E1;
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#logbut:hover{
+  background-color:#5b403a;
+}
+
+#regbut:hover{
+  background-color:#5b403a;
+}
+
+
+.card-img-top{
+  margin: 100px;
+}
+
+.navbar-col a{
+  color: #FFF8E1;
+}
+
+.navbg{
+  background: #482d27;
+  color:#FFF8E1;
+}
+
+.brandname{
+  text-decoration: none;
+  font-size: 50px;
+  color: #FFF8E1;
+  margin-right: 150px;
+}
+
+.navitems a{
+  margin-right: 15px;
+  font-size: 25px;
+}
+
+.links{
+  /* text-decoration: none; */
+  color: #FFF8E1;
+}
+
+.links:hover{
+  font-size: 20px;
+}
+
+#slidebut{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.width{
+  width: 1530px;
+  height: 505px;
+}
+
+.create-recipe{
+  color: #FFF8E1;
+}
+
+.kfoodimg{
+  width: 723px;
+  height: 400px;
+}
+
+.aboutoutline{
+  width: 1000px;
+  height: 750px;
+  background-color: #FFF8E1;
+  margin-left: 250px;
+  margin-top: 30px;
+  color:#472b25;
+  padding: 20px;
+  border-radius: 120px;
+}
+
+.aboutoutline h1,p,h3,h4{
+  text-align: center;
+}
+
+.aboutoutline p1{
+  text-align: justify;
+}
+
+.contactcont{
+  width: 500px;
+  height: 1300px;
+  background-color: #FFF8E1;
+  margin-left: 500px;
+  margin-top: 40px;
+  color:#472b25;
+  padding: 20px;
+  border-radius: 80px;
+}
+
+.contactcont h1,p,h2{
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  color:#472b25;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.contact-form h2 {
+  text-align: center;
+}
+.contact-form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.contact-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #472b25;
+  color: #ffffff;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.contact-form button:hover {
+  background-color: #5a3a2e;
+}
+
+.head1{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 28px;
+}
+
+.img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.button{
+  width: 10%;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 630px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #9b503f;
+  color:#FFF8E1;
+  cursor: pointer;
+}
+
+.savedres{
+  text-align: center;
+}
+
+.des{
+  margin: 20px 200px 30px 200px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.create-recipe {
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #dddddd00;
+  border-radius: 8px;
+  background-color: #FFF8E1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.create-recipe h2 {
+  text-align: center;
+  color: #472b25;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #472b25;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #cccccc61;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.ingredient-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.ingredient-container input {
+  flex: 1;
+}
+
+.crebut{
+  text-align: center;
+  width: 20%;
+  margin-left: 280px;
+}
+
+.border{
+  background: #FFF8E1;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px #482d27;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  color: #472b25;
+}
+
+.border h2 {
+  font-size: 20px;
+  color: #472b25;
+  margin-bottom: 10px;
+}
+
+.instructions {
+  background: #FFF8E1;
+  border-radius: 5px;
+  /* margin-top: 10px; */
+}
+.border p {
+  font-size: 14px;
+  color: #472b25;
+  font-weight: bold;
+}
+
+.butt{
+  width: 50%;
+}
+
+.card{
+  background: #472b25;
+  border: 1px solid #472b25;
+}
+
+.savimg{
+  width: 20%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-left: 450px;
+}
+
+.ressav li{
+  border: 1px solid #FFF8E1;
+  border-radius: 20px;
+  margin: 10px 150px 10px 200px;
+  background: #FFF8E1;
+  color: #472b25;
+}
+
+.savcen{
+  margin-left: 680px;
+}
+
+.ressav h2{
+    text-align: center;
+}
+
+.delbut{
+  width: 10%;
+  margin-left: 500px;
+}
+
