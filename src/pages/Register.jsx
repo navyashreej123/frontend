@@ -19,7 +19,7 @@ const Register = ({ setIsLoggedIn }) => {
       localStorage.setItem("username", username);
       setIsLoggedIn(true);
       alert("Registration Completed! Now login.");
-      navigate("/home");
+      navigate("/login");
 
     } catch (error) {
       if (error.response && error.response.status === 400) {

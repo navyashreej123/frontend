@@ -18,6 +18,7 @@ const Login = ({ setIsLoggedIn }) => {
       setCookies("access_token", res.data.token);
       setIsLoggedIn(true);
       navigate("/home");
+      alert("LOGGEDIN SUCESSFULLY WECOME!!!");
     } catch (error) {
       alert("Invalid Credentials");
     }
