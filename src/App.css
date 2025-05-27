@@ -417,8 +417,41 @@ textarea {
     text-align: center;
 }
 
-.delbut{
+
+.savedreslist{
+    text-align: center;
+    margin-right: 80px;
+}
+
+.button-group {
+  display: flex;
+  gap: 100px;
+  /* margin-top: 10px; */
+}
+
+.viewbtn {
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
   width: 10%;
-  margin-left: 500px;
+  margin-left: 400px;
+  margin-bottom: 10px;
+}
+
+
+.delbut {
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+   width: 10%;
+   margin-bottom: 10px;
+}
+
+.delbut:hover {
+  background-color: #a71b29;
 }
 

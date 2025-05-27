@@ -7,9 +7,8 @@ const Navbar = ({setSavedRecipes}) => {
 
   const handleLogout = () => {
     console.log("Logging out..."); 
-    localStorage.removeItem("token");  
-    localStorage.removeItem("username"); 
-    localStorage.removeItem("savedRecipes");
+    alert("WANT TO LOGOUT!!!.....")
+    localStorage.clear();
     setSavedRecipes([]); 
     navigate("/login"); 
   };
